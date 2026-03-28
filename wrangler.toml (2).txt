@@ -1,0 +1,8 @@
+name = "tb-down"
+main = "index.js"
+compatibility_date = "2026-02-07"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.txt"]
+fallthrough = true
