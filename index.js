@@ -18,7 +18,7 @@ export default {
       const slug = match[2].toLowerCase();
 
       if (slug.includes(year) && slug.includes(titleSlug)) {
-        const download = `https://www.mp4moviez.pink/dl.php?id=${id}&q=720&title=${slug}`;
+        const download = `https://www.mp4moviez.fyi/dl.php?id=${id}&q=720&title=${slug}`;
         return new Response(JSON.stringify({found:true,download}),{
           headers: {"Content-Type":"application/json","Access-Control-Allow-Origin":"*"}
         });
